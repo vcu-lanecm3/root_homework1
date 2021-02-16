@@ -25,3 +25,5 @@ https://github.com/vcu-lanecm3/root_homework1
 but
 
 https://github.com/vcu-lanecm3/root_homework1
+
+updated Badge URLs
