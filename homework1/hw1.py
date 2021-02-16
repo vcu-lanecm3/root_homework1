@@ -20,8 +20,8 @@ def return_lowercased_string(input_string):
     """You have a variable called input_string that is of type string.
     Return it but the lowercase version of it."""
 
-    input_string.lower()
     return_value = input_string
+    return_value.lower()
     return return_value
 
 
@@ -29,8 +29,8 @@ def return_without_starting_ending_whitespace(input_string):
     """You have a variable called input_string that is of type string.
     Return it but with the surrounding (left and right) whitespace stripped."""
 
-    input_string.strip()
     return_value = input_string
+    return_value.strip()
     return return_value
 
 
