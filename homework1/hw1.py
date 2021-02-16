@@ -11,9 +11,8 @@ def return_number_3():
 def return_string_vcu():
     """ This function should return a string with the lowercase value of vcu"""
     
-    return_string_vcu = "vcu"
-    return_string_vcu.lower()
-    return_value = return_string_vcu
+    return_string_vcu = "VCU"
+    return_value = return_string_vcu.lower()
     return return_value
 
 
@@ -21,8 +20,7 @@ def return_lowercased_string(input_string):
     """You have a variable called input_string that is of type string.
     Return it but the lowercase version of it."""
 
-    return_value = input_string
-    return_value.lower()
+    return_value = input_string.lower()
     return return_value
 
 
@@ -30,8 +28,7 @@ def return_without_starting_ending_whitespace(input_string):
     """You have a variable called input_string that is of type string.
     Return it but with the surrounding (left and right) whitespace stripped."""
 
-    return_value = input_string
-    return_value.strip()
+    return_value = input_string.strip()
     return return_value
 
 
